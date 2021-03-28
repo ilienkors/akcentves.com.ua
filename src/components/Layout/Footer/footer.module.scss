@@ -1,0 +1,47 @@
+@import "~styles/screens";
+
+.footer {
+  text-align: center;
+
+  .navMenu {
+    margin: var(--space-md) 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+    }
+
+    @media (min-width: $screen-md) {
+      margin: var(--space-lg) 0;
+      padding: 0 var(--space-xxxl);
+      display: flex;
+      justify-content: space-around;
+    }
+
+    @media (min-width: $screen-lg) {
+      padding: 0 var(--space-xxxxl);
+    }
+  }
+
+  .contacts {
+    margin: var(--space-md) 0;
+
+    a {
+      display: block;
+      margin: var(--space-sm) 0;
+    }
+
+    @media (min-width: $screen-md) {
+      margin: var(--space-lg) 0;
+    }
+  }
+
+  .footerItem {
+    font-size: var(--text-sm);
+    color: var(--main-color);
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
