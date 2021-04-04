@@ -17,10 +17,9 @@
     color: var(--main-color);
   }
 
-  @media (max-width: $screen-md) {
-    padding: var(--space-lg);
-    max-width: 40vw;
-  }
+  padding-left: 10vw;
+  padding-top: 15vw;
+  max-width: 40vw;
 }
 
 .heroTitle {
@@ -28,9 +27,7 @@
   font-style: normal;
   font-weight: bold;
 
-  @media (max-width: $screen-md) {
-    font-size: var(--text-md);
-  }
+  font-size: var(--text-xl);
 }
 
 .heroSubtitle {
@@ -38,7 +35,5 @@
   font-style: normal;
   font-weight: normal;
 
-  @media (max-width: $screen-md) {
-    font-size: var(--text-sm);
-  }
+  font-size: var(--text-lg);
 }

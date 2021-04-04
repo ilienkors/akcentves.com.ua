@@ -3,7 +3,7 @@ import { GatsbyImage } from "gatsby-plugin-image";
 
 import * as heroStyles from "./hero.module.scss";
 
-const Hero = ({ heroImage, heroImageAlt }) => {
+const Hero = ({ heroImage, heroImageAlt, title, subtitle }) => {
   return (
     <div className={heroStyles.hero}>
       <GatsbyImage
@@ -12,8 +12,8 @@ const Hero = ({ heroImage, heroImageAlt }) => {
         alt={heroImageAlt}
       />
       <div className={heroStyles.heroContent}>
-        <h1 className={heroStyles.heroTitle}>Акцентвес</h1>
-        <h2 className={heroStyles.heroSubtitle}>Весовое оборудование любой сложности и объемов</h2>
+        <h1 className={heroStyles.heroTitle}>{title}</h1>
+        <h2 className={heroStyles.heroSubtitle}>{subtitle}</h2>
       </div>
     </div>
   );
