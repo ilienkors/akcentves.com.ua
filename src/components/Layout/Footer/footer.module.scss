@@ -28,7 +28,7 @@
 
     a {
       display: block;
-      margin: var(--space-sm) 0;
+      margin: var(--space-md) 0;
     }
 
     @media (min-width: $screen-md) {
@@ -37,7 +37,7 @@
   }
 
   .footerItem {
-    font-size: var(--text-sm);
+    font-size: var(--text-md);
     color: var(--main-color);
   }
 
