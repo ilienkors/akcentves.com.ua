@@ -1,0 +1,31 @@
+@import "~styles/screens";
+
+.service {
+  margin: 10vh 0;
+  padding: 0 10vw;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+
+  text-align: center;
+
+  margin: 0;
+
+  color: var(--main-color);
+  font-size: var(--text-lg);
+}
+
+.featuredServices {
+  margin-top: 5vh;
+
+  display: grid;
+  row-gap: var(--space-md);
+
+  @media (min-width: $screen-md) {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+  }
+}

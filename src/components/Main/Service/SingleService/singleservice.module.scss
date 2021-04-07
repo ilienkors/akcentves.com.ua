@@ -1,0 +1,28 @@
+.singleService {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: var(--space-xs);
+}
+
+.text {
+  position: relative;
+  top: -15%;
+  padding: 0 var(--space-lg);
+  color: var(--main-color);
+}
+
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+
+  font-size: var(--text-md);
+}
+
+.shortDescription {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+
+  font-size: var(--text-md);
+  margin-bottom: 0;
+}

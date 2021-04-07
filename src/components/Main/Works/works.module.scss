@@ -1,0 +1,21 @@
+.works {
+  display: grid;
+}
+
+.worksImage {
+  grid-area: 1/1;
+}
+
+.description {
+  padding: 10vw;
+
+  color: var(--white);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--text-md);
+
+  grid-area: 1/1;
+  position: relative;
+}

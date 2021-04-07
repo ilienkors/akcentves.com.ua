@@ -1,0 +1,47 @@
+.readyToOrder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3vh 10vh;
+
+  background-color: var(--main-color);
+
+  .title,
+  .subtitle {
+    margin: var(--space-xs);
+    color: var(--white);
+    text-align: center;
+  }
+}
+
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+
+  font-size: var(--text-lg);
+}
+
+.subtitle {
+  font-size: var(--text-md);
+}
+
+.orderBtn {
+  width: fit-content;
+  padding: 0.5vw 1vw;
+  background-color: var(--accent);
+  border: 0;
+  border-radius: var(--space-xs);
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  color: var(--white);
+  font-size: var(--text-md);
+
+  margin-top: var(--space-md);
+
+  cursor: pointer;
+}
